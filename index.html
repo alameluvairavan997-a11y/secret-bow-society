@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Enter The Secret Bow Society, a dreamy pink world of mystery letters, little secrets, and sparkle.">
+  <title>The Secret Bow Society | Alamelu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="sparkle">✧ ˚ · . 🎀 . · ˚ ✧</div>
+
+  <main class="welcome-card">
+    <p class="eyebrow">♡ EST. JUST FOR YOU ♡</p>
+    <div class="big-bow">🎀</div>
+
+    <h1>The Secret<br>Bow Society</h1>
+
+    <p class="subtitle">
+      A little world of secrets, sweetness & sparkle.
+    </p>
+
+    <button id="enterBtn">ENTER THE SOCIETY ♡</button>
+
+    <p id="secretMessage" class="hidden">
+      💌 YOUR INVITATION HAS BEEN ACCEPTED!<br>
+      Welcome to our little secret world.
+    </p>
+
+    <div class="footer">
+      made with ♡ & a little magic<br>
+      <span class="creator-label">THE CREATOR</span><br>
+      <span class="creator">Alamelu Vairavan ♡</span><br>
+      <span class="footer-decoration">୨୧ · ˚ · ♡ · ˚ · ୨୧</span>
+    </div>
+  </main>
+
+  <section class="letter-room" id="letterRoom">
+    <p class="eyebrow">✧ YOUR PRIVATE COLLECTION ✧</p>
+
+    <h2>Letters From<br>the Unknown</h2>
+
+    <p class="room-description">
+      Three little envelopes. Three hidden secrets.
+      Which one will you open first?
+    </p>
+
+    <div class="envelope-grid">
+
+      <article class="letter-card">
+        <div class="envelope" aria-hidden="true">💌</div>
+        <h3>The Secret Admirer</h3>
+        <p class="letter-hint">Someone has a message for you...</p>
+        <button class="letter-button" data-letter="0" aria-expanded="false">OPEN LETTER ♡</button>
+
+        <div class="letter-message hidden" id="letter0">
+          <span class="message-decoration">୨୧ ♡ ୨୧</span>
+          <p>Dear you,</p>
+          <p>You have a kind of magic that makes ordinary moments feel special. Never underestimate the little things that make you YOU.</p>
+          <p>With a little mystery,<br>Your Secret Admirer 💌</p>
+        </div>
+      </article>
+
+      <article class="letter-card">
+        <div class="envelope" aria-hidden="true">🎀</div>
+        <h3>The Fortune Letter</h3>
+        <p class="letter-hint">A tiny prediction awaits...</p>
+        <button class="letter-button" data-letter="1" aria-expanded="false">OPEN LETTER ♡</button>
+
+        <div class="letter-message hidden" id="letter1">
+          <span class="message-decoration">✧ ˚ · . ✧</span>
+          <p>Dear dreamer,</p>
+          <p>Your fictional fortune says: a small unexpected moment will become a favourite memory. Say yes to creativity, curiosity and a little fun!</p>
+          <p>Your fortune, sealed with a bow ♡</p>
+        </div>
+      </article>
+
+      <article class="letter-card">
+        <div class="envelope" aria-hidden="true">🗝️</div>
+        <h3>The Forbidden Letter</h3>
+        <p class="letter-hint">This was never meant to be found...</p>
+        <button class="letter-button" data-letter="2" aria-expanded="false">OPEN LETTER ♡</button>
+
+        <div class="letter-message hidden" id="letter2">
+          <span class="message-decoration">☾ ⋆ ˚ ♡</span>
+          <p>TOP SECRET — BOW SOCIETY</p>
+          <p>You were told there were only three letters. But look closely...</p>
+          <p>The real secret was never inside an envelope. It was the creator who brought this whole world to life.</p>
+          <p>Signed, The Society Founder 👑</p>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="room-footer">✧ Some secrets are sweeter when discovered ✧</p>
+  </section>
+
+  <footer class="site-footer">
+    This little universe was created by
+    <strong>Alamelu Vairavan ♡</strong>
+  </footer>
+
+</body>
+</html>
